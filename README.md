@@ -5,13 +5,19 @@ Vidly is a Django-based movie listing project that allows users to view and mana
 # Features 🚀
 
 📌 List all available movies
+
 📅 View movie details (Name, Release Date, Genre, and Cassette Collection)
+
 🔄 REST API for retrieving movie data
+
 🛠 Built with Django & Django REST Framework (DRF)
 
 # Technologies Used 💻
 
 Python 🐍
+
 Django 🕸️
+
 Django REST Framework (DRF) 🔥
+
 SQLite (for database)
