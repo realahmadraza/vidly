@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{%block content%}
+    {% if movie %}
+        <dl>
+            <dt>Title</dt>
+            <dd>{{movie.title}}</dd>
+            <dt>Genre</dt>
+            <dd>{{movie.genre}}</dd>
+            <dt>Release year</dt>
+            <dd>{{movie.release_year}}</dd>
+            <dt>Stock</dt>
+            <dd>{{movie.number_in_stock}}</dd>
+            <dt>Price(INR)</dt>
+            <dd>{{movie.daily_rate}}</dd>
+        </dl>
+    {% endif %}
+{% endblock %}
